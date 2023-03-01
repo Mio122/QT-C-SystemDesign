@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WorkDataDele</class>
+ <widget class="QWidget" name="WorkDataDele">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>545</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="SparyNum">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>200</y>
+     <width>125</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CancleBtn">
+   <property name="geometry">
+    <rect>
+     <x>361</x>
+     <y>300</y>
+     <width>75</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="BathMark">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>200</y>
+     <width>125</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="InerLab">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>80</y>
+     <width>401</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_6">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>160</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>固化剂消耗：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_5">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>200</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>浴缸标签：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_8">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>120</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>玻纤消耗：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_7">
+   <property name="geometry">
+    <rect>
+     <x>289</x>
+     <y>80</y>
+     <width>91</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>树脂消耗：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_3">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>80</y>
+     <width>91</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>序号：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CloseBtn">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_4">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>200</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>喷涂次数：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ID">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>125</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>0</y>
+     <width>151</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>新建浴缸信息</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ResinCos">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>80</y>
+     <width>125</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="BathTubID">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>160</y>
+     <width>125</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TitleLab">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>10</y>
+     <width>461</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="CurAgCos">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>160</y>
+     <width>125</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_1">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>120</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>机器人编号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_10">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>240</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>喷涂时间：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DeleBtn">
+   <property name="geometry">
+    <rect>
+     <x>461</x>
+     <y>300</y>
+     <width>75</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="FiberGlassCos">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>120</y>
+     <width>125</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>240</y>
+     <width>125</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="RobotID">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>120</y>
+     <width>125</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_2">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>160</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>浴缸编号：</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="timeEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>240</y>
+     <width>125</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_9">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>240</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>喷涂日期：</string>
+   </property>
+  </widget>
+  <zorder>InerLab</zorder>
+  <zorder>TitleLab</zorder>
+  <zorder>SparyNum</zorder>
+  <zorder>CancleBtn</zorder>
+  <zorder>BathMark</zorder>
+  <zorder>UserLab_6</zorder>
+  <zorder>UserLab_5</zorder>
+  <zorder>UserLab_8</zorder>
+  <zorder>UserLab_7</zorder>
+  <zorder>UserLab_3</zorder>
+  <zorder>CloseBtn</zorder>
+  <zorder>UserLab_4</zorder>
+  <zorder>ID</zorder>
+  <zorder>label</zorder>
+  <zorder>ResinCos</zorder>
+  <zorder>BathTubID</zorder>
+  <zorder>CurAgCos</zorder>
+  <zorder>UserLab_1</zorder>
+  <zorder>UserLab_10</zorder>
+  <zorder>DeleBtn</zorder>
+  <zorder>FiberGlassCos</zorder>
+  <zorder>dateEdit</zorder>
+  <zorder>RobotID</zorder>
+  <zorder>UserLab_2</zorder>
+  <zorder>timeEdit</zorder>
+  <zorder>UserLab_9</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

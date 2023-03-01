@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+</head>
+
+<html>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="height:400px"></div>
+    <!-- ECharts单文件引入 -->
+    <script src="echarts-all.js"></script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts图表
+        var myChart = echarts.init(document.getElementById('main')); 
+
+        var option = {
+
+        title : {
+            text: '年查询'
+
+        },
+
+        tooltip : {
+            trigger: 'axis'
+        },
+
+        legend: {
+            data:['意向','预购','成交']
+        },
+
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                dataView : {show: true, readOnly: false},
+                magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+                restore : {show: true},
+                saveAsImage : {show: false}
+            }
+        },
+
+        calculable : true,
+
+        dataZoom : {
+        show : true,
+        realtime : true,
+        start : 0,
+        end : 100
+        },
+
+        xAxis : [
+            {
+                type : 'category',
+                boundaryGap : false,
+                data : ["2018年度", "2019年度"]
+            }
+        ],
+
+        yAxis : [
+            {
+                type : 'value'
+            }
+        ],
+
+        series : [
+            {
+                name:'意向',
+                type:'line',
+                smooth:true,
+                itemStyle: 
+                {
+                    normal:  
+                    {label : {show: true},
+                    areaStyle: {type: 'default'}}
+                },
+                data:[0, 0],
+                markPoint : {
+	                data : [
+	                    {type : 'max', name: '最大值'},
+	                    {type : 'min', name: '最小值'}
+	                ]
+            	}
+            	
+            },
+
+            {
+                name:'预购',
+                type:'line',
+                smooth:true,
+                itemStyle: 
+                {
+                    normal:  
+                    {label : {show: true},
+                    areaStyle: {type: 'default'}}
+                },
+                data:[0, 0],
+                markPoint : {
+                    data : [
+                        {type : 'max', name: '最大值'},
+                        {type : 'min', name: '最小值'}
+                    ]
+                }
+            },
+
+            {
+                name:'成交',
+                type:'line',
+                smooth:true,
+                itemStyle: 
+                {
+                    normal:  
+                    {label : {show: true},
+                    areaStyle: {type: 'default'}}
+                },
+                data:[0, 0],
+                markPoint : {
+                    data : [
+                        {type : 'max', name: '最大值'},
+                        {type : 'min', name: '最小值'}
+                    ]
+                }
+            }
+        ]
+    };
+
+
+        myChart.setOption(option);
+        //窗体自适应    
+        window.onresize = myChart.resize;
+
+        function showhello(str)
+		{
+            var obj = JSON.parse(str); 
+            option.legend.data=obj.legend;
+
+            option.series[0].data =  obj.value;
+            option.series[1].data =  obj.value2;
+            option.series[2].data =  obj.value3;
+
+            option.series[0].name =  obj.legend[0];
+            option.series[1].name =  obj.legend[1];
+            option.series[2].name =  obj.legend[2];
+
+
+            myChart.setOption(option);
+		};
+
+        // 为echarts对象加载数据 
+         
+    
+
+	
+	</script>
+
+
+
+
+</body>
+</html>

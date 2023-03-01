@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CuringSele</class>
+ <widget class="QWidget" name="CuringSele">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="CancleBtn">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>210</y>
+     <width>75</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_3">
+   <property name="geometry">
+    <rect>
+     <x>59</x>
+     <y>70</y>
+     <width>91</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>固化剂编号：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="CurAgeName">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>110</y>
+     <width>250</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="InerLab">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>401</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SeleBtn">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>210</y>
+     <width>75</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>筛选</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CloseBtn">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="CurAgePrice">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>150</y>
+     <width>250</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>151</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>新建浴缸信息</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_1">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>110</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>固化剂名称：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TitleLab">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>461</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserLab_2">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>150</y>
+     <width>101</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>固化剂单价：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="CurAgeID">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>250</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>InerLab</zorder>
+  <zorder>TitleLab</zorder>
+  <zorder>CancleBtn</zorder>
+  <zorder>UserLab_3</zorder>
+  <zorder>CurAgeName</zorder>
+  <zorder>SeleBtn</zorder>
+  <zorder>CloseBtn</zorder>
+  <zorder>CurAgePrice</zorder>
+  <zorder>label</zorder>
+  <zorder>UserLab_1</zorder>
+  <zorder>UserLab_2</zorder>
+  <zorder>CurAgeID</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

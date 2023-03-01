@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ECharts</class>
+ <widget class="QWidget" name="ECharts">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWebView" name="webView" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>870</width>
+     <height>450</height>
+    </rect>
+   </property>
+   <property name="url" stdset="0">
+    <url>
+     <string/>
+    </url>
+   </property>
+  </widget>
+  <widget class="QLabel" name="InerLab">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>401</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TitleLab">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>461</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CloseBtn">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>切换用户</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="YearCBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>500</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>2018年</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2019年</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="TypeCBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>540</y>
+     <width>200</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>浴缸生产量</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>玻纤/树脂/固化剂物耗</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>玻纤/树脂/固化剂财耗</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="MonthCBox">
+   <property name="geometry">
+    <rect>
+     <x>119</x>
+     <y>500</y>
+     <width>91</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>1月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>11月份</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>12月份</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="DayBtn">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>520</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>日查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="WeekBtn">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>520</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>周查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MonthBtn">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>520</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>月查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QuarBtn">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>520</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>季度查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="YearBtn">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>520</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>年度查询</string>
+   </property>
+  </widget>
+  <zorder>InerLab</zorder>
+  <zorder>TitleLab</zorder>
+  <zorder>webView</zorder>
+  <zorder>CloseBtn</zorder>
+  <zorder>label</zorder>
+  <zorder>YearCBox</zorder>
+  <zorder>TypeCBox</zorder>
+  <zorder>MonthCBox</zorder>
+  <zorder>DayBtn</zorder>
+  <zorder>WeekBtn</zorder>
+  <zorder>MonthBtn</zorder>
+  <zorder>QuarBtn</zorder>
+  <zorder>YearBtn</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKitWidgets/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
